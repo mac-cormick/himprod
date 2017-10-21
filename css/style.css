@@ -47,7 +47,8 @@ body{
 }
 .logo{
 	float:left;
-	margin-right: 46.5%;
+	width: 30%;
+	margin-right: 24.5%;
 }
 .cssmenu {
 	float:left;
@@ -55,6 +56,8 @@ body{
 }
 .cssmenu ul li {
 	display: inline-block;
+	font-size: 18px;
+  font-weight: 600;
 }
 .cssmenu ul li a {
 	color: #000;
@@ -204,13 +207,13 @@ body{
 }
 .slider-right h1{
 	color:#000;
-	font-size:4em;
+	font-size:2.5em;
 	text-transform:uppercase;
 	font-weight: 100;
 }
 .slider-right h2{
 	color:#000;
-	font-size:3em;
+	font-size:2em;
 	text-transform:uppercase;
 	font-weight: 100;
 }
@@ -236,14 +239,15 @@ body{
 }
 /*--content--*/
 .span_1_of_c1{
-	width: 26.2%;
+	width: 100%;
 }
 .span_1_of_c1 p{
 	color:#999;
-	font-size:0.8125em;
-	margin-top: 30px;
+	font-size:1.8125em;
+	margin-top: 15px;
 }
 .lsidebar {
+	border-top: 1px solid #9c9c9c;
 	display: block;
 	float: left;
 	margin: 1% 4.6% 1% 0;
@@ -1737,7 +1741,7 @@ p.cart a:hover {
 		width:90%;
 	}
 	.logo {
-		margin-right: 44.5%;
+		margin-right: 30.5%;
     }
    .dropdown {
 	   padding-right: 63%;
@@ -1790,7 +1794,7 @@ p.cart a:hover {
 		width:90%;
 	}
 	.logo {
-		margin-right:41.5%;
+		margin-right:20.5%;
     }
    .dropdown {
 	   padding-right:62%;
@@ -1853,7 +1857,7 @@ p.cart a:hover {
 		width:90%;
 	}
 	.logo {
-		margin-right:25.5%;
+		margin-right:3.5%;
     }
    .dropdown {
 	   padding-right:46.5%;
@@ -1914,10 +1918,10 @@ p.cart a:hover {
 		left: 45px;
 	}
 	.slider-right h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	.slider-right h2 {
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 	.wmuSliderPrev {
 		left: 15px;
@@ -1977,7 +1981,7 @@ p.cart a:hover {
 		width:90%;
 	}
 	.logo {
-		margin-right:11.5%;
+		margin-right:4.5%;
     }
    .dropdown {
 	   padding-right:34.5%;
@@ -2042,10 +2046,10 @@ p.cart a:hover {
 		left: 40%;
 	}
 	.slider-right h1 {
-		font-size:2em;
+		font-size:1.5em;
 	}
 	.slider-right h2 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.slider-right p {
 		font-size: 0.8125em;
@@ -2146,7 +2150,8 @@ p.cart a:hover {
 		width:90%;
 	}
 	.logo {
-		margin-right:8.5%;
+		margin-right:3%;
+		width: 50%;
     }
    .dropdown {
 	   padding-right:34.5%;
@@ -2212,10 +2217,10 @@ p.cart a:hover {
 		left: 40%;
 	}
 	.slider-right h1 {
-		font-size:2em;
+		font-size:1.5em;
 	}
 	.slider-right h2 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.slider-right p {
 		font-size: 0.8125em;
@@ -2324,7 +2329,7 @@ p.cart a:hover {
 	}
 	.logo {
 		margin-right: 1.5%;
-		width: 24.5%;
+		width: 50.5%;
     }
    .dropdown {
 	   padding-right:34.5%;
@@ -2390,10 +2395,10 @@ p.cart a:hover {
 		left: 40%;
 	}
 	.slider-right h1 {
-		font-size:2em;
+		font-size:1.2em;
 	}
 	.slider-right h2 {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	.slider-right p {
 		font-size: 0.8125em;
@@ -2573,7 +2578,7 @@ p.cart a:hover {
 	}
 	.logo {
 		margin-right: 0;
-		width: 30.5%;
+		width: 50.5%;
     }
    .dropdown {
 	   padding-right:34.5%;
@@ -2639,10 +2644,10 @@ p.cart a:hover {
 		left: 35%;
 	}
 	.slider-right h1 {
-		font-size:1.7em;
+		font-size:1em;
 	}
 	.slider-right h2 {
-		font-size: 1.1em;
+		font-size: 0.7em;
 	}
 	.slider-right p {
 		display: none;
