@@ -1,3 +1,40 @@
 i.fa {
 	color: #030395;
 }
+
+.about-section p {
+	padding: 0 20px;
+	text-align: justify;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.logos-section {
+	text-align: center;
+	overflow: hidden;
+	padding: 20px 60px;
+}
+
+.about-cont-section {
+	overflow: hidden;
+	color: #323232;
+}
+
+.preim-section {
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+.preim-item img {
+	width: 100px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.preim-item span {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #484848;
+}

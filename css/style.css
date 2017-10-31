@@ -103,12 +103,17 @@ body{
 	display:block;
 	font-size: 0.8125em;
 	color:#777;
-	text-transform:capitalize;
-	line-height:2em;
+	line-height: 1em;
+    margin-bottom: 21px;
+    text-decoration: underline;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+.h_nav ul li img {
+	float: left;
+	margin-right: 5px;
 }
 .h_nav ul li a:hover{
 	color:#00405d;
@@ -2573,6 +2578,15 @@ p.cart a:hover {
 	}
 }
 @media (max-width:480px){
+	.about-section p {
+		padding: 0;
+	}
+	.logos-section {
+		padding: 20px 0;
+	}
+	.span_1_of_c1 p {
+		font-size: 1.2em;
+	}
 	.wrap{
 		width:90%;
 	}
