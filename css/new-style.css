@@ -1,3 +1,8 @@
+p {
+	font-family: 'Roboto Condensed', sans-serif !important;
+	color: #484848;
+}
+
 i.fa {
 	color: #030395;
 }
@@ -34,7 +39,88 @@ strong {
 }
 
 .preim-item span {
+	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #484848;
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+li.sub-li {
+	margin-left: 10px;
+}
+
+li.last-li {
+	margin-bottom: 10px;
+}
+
+ul.list1 img {
+	margin-right: 5px;
+}
+
+.prod-items h3.group-header {
+	font-size: 20px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.prod-items h2 {
+	font-size: 28px;
+}
+
+ul.dif-types {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul.dif-types li {
+	margin-bottom: 5px;
+}
+
+.left-products img {
+	margin-right: 5px;
+}
+
+.left-products a {
+	color: #0c0c94;
+	text-decoration: underline;
+	font-size: 14px;
+	transition: all 0.4s ease;
+}
+
+.left-products a:hover {
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+.left-products li {
+	margin-bottom: 5px;
+}
+
+.left-products {
+	margin-top: 20px;
+}
+
+.info a {
+	color: #fff;
+}
+
+.register_account h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.register_account a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.register_account li {
+	margin-bottom: 5px;
 }
