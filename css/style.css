@@ -51,8 +51,9 @@ body{
 	margin-right: 24.5%;
 }
 .cssmenu {
-	float:left;
 	margin-top:11px;
+	display: inline-block;
+	width: 30%;
 }
 .cssmenu ul li {
 	display: inline-block;
@@ -86,12 +87,12 @@ body{
 	font-size: 0.8125em;
 }
 .h_nav h4{
-	border-bottom:1px solid rgb(236, 236, 236);
-	font-size: 1.1em;
+	border-bottom: 1px solid rgb(236, 236, 236);
+	font-size: 0.9em;
 	color: #000;
-	line-height: 1.8em;
-	text-transform:capitalize;
-	margin-bottom: 4%;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 10%;
 }
 .h_nav h4.top{
 	margin-top: 12%;
@@ -104,7 +105,7 @@ body{
 	font-size: 0.8125em;
 	color:#777;
 	line-height: 1em;
-    margin-bottom: 21px;
+    margin-bottom: 15px;
     text-decoration: underline;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -365,10 +366,12 @@ h3.m_1{
 	font-size:0.9em;
 	text-transform:uppercase;
 	font-weight:700;
+	min-height: 38px;
 }
 p.m_2{
 	color:#999;
 	font-size:1em;
+	min-height: 38px;
 }
 .price{
 	color:#555;
@@ -415,7 +418,7 @@ p.m_2{
 /* Just for the demo */
 .top_box{
 	padding:6%;
-	border-bottom: 5px solid #d5d5d5;
+	border-bottom: 5px solid #4747b3;
 }
 .list{
 	float: left;
@@ -430,6 +433,7 @@ ul.list li img{
 	margin: 0 0px 0 18%;
 } 
 .top_box .css3 img {
+	height: 173px;
 	margin-top: 20px;
 	-webkit-transition-duration: 0.5s;
 	/* Webkit: Animation duration; */
@@ -1861,6 +1865,9 @@ p.cart a:hover {
 	}
 }
 @media (max-width:1024px){
+	.top_box .css3 img {
+		max-height: 140px;
+	}
 	.wrap{
 		width:90%;
 	}
@@ -2157,12 +2164,22 @@ p.cart a:hover {
 	}
 }	
 @media (max-width:768px){
+	.internet-shop {
+		width: 100% !important;
+		margin-top: 20px !important;
+	}
+	.cssmenu {
+		width: 100% !important;
+	}
+	.h_nav {
+		min-height: 20px 0 !important;
+	}
 	.wrap{
 		width:90%;
 	}
 	.logo {
 		margin-right:3%;
-		width: 50%;
+		width: 70%;
     }
    .dropdown {
 	   padding-right:34.5%;
@@ -2340,7 +2357,7 @@ p.cart a:hover {
 	}
 	.logo {
 		margin-right: 1.5%;
-		width: 50.5%;
+		width: 100%;
     }
    .dropdown {
 	   padding-right:34.5%;
@@ -2598,7 +2615,7 @@ p.cart a:hover {
 	}
 	.logo {
 		margin-right: 0;
-		width: 50.5%;
+		width: 100%;
     }
    .dropdown {
 	   padding-right:34.5%;
@@ -2863,7 +2880,7 @@ p.cart a:hover {
 	}
 	.logo {
 		margin-right: 0;
-		width:42.5%;
+		width:100%;
     }
    .dropdown {
 	   padding-right:34.5%;
